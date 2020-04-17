@@ -1,991 +1,1159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <link media="all" href="https://pxltheme.com/wp/bako/wp-content/cache/autoptimize/css/autoptimize_b98fe647c7bf321ab61734b41f007e11.css" rel="stylesheet" />
+  <title>M.A.B &#8211; Web Developer</title>
+  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <link rel='dns-prefetch' href='//s.w.org' />
+  <link rel="alternate" type="application/rss+xml" title="Bako Doe &raquo; Feed" href="https://pxltheme.com/wp/bako/feed/" />
+  <link rel="alternate" type="application/rss+xml" title="Bako Doe &raquo; Comments Feed" href="https://pxltheme.com/wp/bako/comments/feed/" />
+  <script type="text/javascript">
+    window._wpemojiSettings = {
+      "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+      "ext": ".png",
+      "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+      "svgExt": ".svg",
+      "source": {
+        "concatemoji": "https:\/\/pxltheme.com\/wp\/bako\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"
+      }
+    };
+    ! function(e, a, t) {
+      var r, n, o, i, p = a.createElement("canvas"),
+        s = p.getContext && p.getContext("2d");
 
-  <title>Sekolah Kreatif lagi</title>
+      function c(e, t) {
+        var a = String.fromCharCode;
+        s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
+        var r = p.toDataURL();
+        return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
+      }
 
-  <!-- Google font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+      function l(e) {
+        if (!s || !s.fillText) return !1;
+        switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
+          case "flag":
+            return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128,
+              56423, 56128, 56447
+            ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
+          case "emoji":
+            return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
+        }
+        return !1
+      }
 
-  <!-- Bootstrap -->
-  <link type="text/css" rel="stylesheet" href="https://colorlib.com/etc/creative-agency/css/bootstrap.min.css" />
-
-  <!-- Owl Carousel -->
-  <link type="text/css" rel="stylesheet" href="https://colorlib.com/etc/creative-agency/css/owl.carousel.css" />
-  <link type="text/css" rel="stylesheet" href="https://colorlib.com/etc/creative-agency/css/owl.theme.default.css" />
-
-  <!-- Magnific Popup -->
-  <link type="text/css" rel="stylesheet" href="https://colorlib.com/etc/creative-agency/css/magnific-popup.css" />
-
-  <!-- Font Awesome Icon -->
-  <link rel="stylesheet" href="https://colorlib.com/etc/creative-agency/css/font-awesome.min.css" />
-
-  <!-- Custom stlylesheet -->
-  <link type="text/css" rel="stylesheet" href="https://colorlib.com/etc/creative-agency/css/style.css" />
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+      function d(e) {
+        var t = a.createElement("script");
+        t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+      }
+      for (i = Array("flag", "emoji"), t.supports = {
+          everything: !0,
+          everythingExceptFlag: !0
+        }, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
+      t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+        t.DOMReady = !0
+      }, t.supports.everything || (n = function() {
+        t.readyCallback()
+      }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+        "complete" === a.readyState && t.readyCallback()
+      })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
+    }(window, document, window._wpemojiSettings);
+  </script>
+  <link rel='stylesheet' id='bako-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C400i%2C600%2C600i%2C700%2C700i%7CPoppins%3A400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i&#038;ver=1.0.0' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-global-css' href='https://pxltheme.com/wp/bako/wp-content/cache/autoptimize/css/autoptimize_single_8d20a0fee59b2392d59a6b46fe11432c.css?ver=1580211727' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-post-8-css' href='https://pxltheme.com/wp/bako/wp-content/cache/autoptimize/css/autoptimize_single_942530f201a7fd5e7649dfff13944c9a.css?ver=1580211727' type='text/css' media='all' />
+  <link rel='stylesheet' id='google-fonts-1-css'
+    href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.3.2'
+    type='text/css' media='all' />
+  <script type='text/javascript' src='https://pxltheme.com/wp/bako/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+  <link rel='https://api.w.org/' href='https://pxltheme.com/wp/bako/wp-json/' />
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pxltheme.com/wp/bako/xmlrpc.php?rsd" />
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://pxltheme.com/wp/bako/wp-includes/wlwmanifest.xml" />
+  <meta name="generator" content="WordPress 5.3.2" />
+  <link rel="canonical" href="https://pxltheme.com/wp/bako/" />
+  <link rel='shortlink' href='https://pxltheme.com/wp/bako/' />
+  <link rel="alternate" type="application/json+oembed" href="https://pxltheme.com/wp/bako/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpxltheme.com%2Fwp%2Fbako%2F" />
+  <link rel="alternate" type="text/xml+oembed" href="https://pxltheme.com/wp/bako/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpxltheme.com%2Fwp%2Fbako%2F&#038;format=xml" />
+  <link rel="icon" href="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/favicon.png" sizes="32x32" />
+  <link rel="icon" href="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/favicon.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/favicon.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="msapplication-TileImage" content="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/favicon.png" />
 </head>
 
-<body>
-  <!-- Header -->
-  <header id="home">
-    <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('https://colorlib.com/etc/creative-agency/img/background1.jpg');">
-      <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
-
-    <!-- Nav -->
-    <nav id="nav" class="navbar nav-transparent">
-      <div class="container">
-
-        <div class="navbar-header">
-          <!-- Logo -->
-          <div class="navbar-brand">
-            <a href="index.html">
-              <img class="logo" src="https://muhammadali07.github.io/WhatsApp Image 2018-10-30 at 08.11.33.jpeg" alt="logo">
-              <img class="logo-alt" src="https://muhammadali07.github.io/WhatsApp Image 2018-10-30 at 08.11.33.jpeg" alt="logo">
-            </a>
-          </div>
-          <!-- /Logo -->
-
-          <!-- Collapse nav button -->
-          <div class="nav-collapse">
-            <span></span>
-          </div>
-          <!-- /Collapse nav button -->
-        </div>
-
-        <!--  Main navigation  -->
-        <ul class="main-nav nav navbar-nav navbar-right">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#service">Ekstra Kulikuler</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="has-dropdown"><a href="#blog">Artikel</a>
-            <ul class="dropdown">
-              <li><a href="blog-single.html">blog post</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <!-- /Main navigation -->
-
-      </div>
-    </nav>
-    <!-- /Nav -->
-
-    <!-- home wrapper -->
-    <div class="home-wrapper">
-      <div class="container">
-        <div class="row">
-
-          <!-- home content -->
-          <div class="col-md-10 col-md-offset-1">
-            <div class="home-content">
-              <h1 class="white-text">Belajar Lebih <span class="typed"></span></h1>
-              <p class="white-text">Ingin lebih tahu tentang kami, Anda bisa melakukan melihat detail sekoah kami sekarang dengan lebih mudah.
-              </p>
-              <!-- <button class="main-btn">Login</button> -->
-            </div>
-          </div>
-          <!-- /home content -->
-
-        </div>
-      </div>
-    </div>
-    <!-- /home wrapper -->
-
-  </header>
-  <!-- /Header -->
-
-  <!-- About -->
-  <div id="about" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="section-header text-center">
-          <h2 class="title">Selamat Datang di Sekolah Kreatif</h2>
-        </div>
-        <!-- /Section header -->
-
-        <!-- about -->
-        <div class="col-md-4">
-          <div class="about">
-            <i class="fa fa-cogs"></i>
-            <h3>Pengajar Professional</h3>
-            <p>Dengan pengajar yang kompeten di bidangnya, diharapkan dapat membantu siswa dapat berkembang sesuai yang di harapkan.</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <!-- /about -->
-
-        <!-- about -->
-        <div class="col-md-4">
-          <div class="about">
-            <i class="fa fa-magic"></i>
-            <h3>Fasilitas</h3>
-            <p>Dengan di dukung fasilitas yang baik, maka siswa - siswi dapat berkembang secara atraktif dan interaktif.</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <!-- /about -->
-
-        <!-- about -->
-        <div class="col-md-4">
-          <div class="about">
-            <i class="fa fa-mobile"></i>
-            <h3>Pendidikan Agama</h3>
-            <p>Tidak hanya mengembangkan keilmuan duniawi, kami juga membimbing para murid untuk memperdalam ilmu agama islam.</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <!-- /about -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /About -->
-
-
-  <!-- Portfolio -->
-  <div id="portfolio" class="section md-padding bg-grey">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="section-header text-center">
-          <h2 class="title">Portfolio</h2>
-        </div>
-        <!-- /Section header -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/work1.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#"><i class="fa fa-external-link"></i></a>
-              <a class="lightbox" href="https://colorlib.com/etc/creative-agency/img/work1.jpg"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/work2.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#"><i class="fa fa-external-link"></i></a>
-              <a class="lightbox" href="https://colorlib.com/etc/creative-agency/img/work2.jpg"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/work3.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#"><i class="fa fa-external-link"></i></a>
-              <a class="lightbox" href="https://colorlib.com/etc/creative-agency/img/work3.jpg"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/work4.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#"><i class="fa fa-external-link"></i></a>
-              <a class="lightbox" href="https://colorlib.com/etc/creative-agency/img/work4.jpg"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/work5.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#"><i class="fa fa-external-link"></i></a>
-              <a class="lightbox" href="https://colorlib.com/etc/creative-agency/img/work5.jpg"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/work6.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#"><i class="fa fa-external-link"></i></a>
-              <a class="lightbox" href="https://colorlib.com/etc/creative-agency/img/work6.jpg"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Portfolio -->
-
-  <!-- Service -->
-  <div id="service" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="section-header text-center">
-          <h2 class="title">Ekstra Kulikuler</h2>
-        </div>
-        <!-- /Section header -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-diamond"></i>
-            <h3>App Development</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-rocket"></i>
-            <h3>Graphic Design</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-cogs"></i>
-            <h3>Creative Idea</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-diamond"></i>
-            <h3>Marketing</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-pencil"></i>
-            <h3>Awesome Support</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-flask"></i>
-            <h3>Brand Design</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Service -->
-
-
-  <!-- Why Choose Us -->
-  <div id="features" class="section md-padding bg-grey">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- why choose us content -->
-        <div class="col-md-6">
-          <div class="section-header">
-            <h2 class="title">Mengapa memilih Sekolah Kreatif 2 Tulangan ?</h2>
-          </div>
-          <p>Sekolah Kretif (SD MUDA) memberikan apa yang menjadi keinginan oelh para orang, menjunjung tinggi perintah agama islam dan di tunjang materi pembelajaran yang kompeten .</p>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Lingkungan yang Agamis.</p>
-          </div>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Tenaga pengajar yang kompeten.</p>
-          </div>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Metode pengajaran yang interaktif.</p>
-          </div>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Serta membimbing para siswa kearah menuju cita - cita.</p>
-          </div>
-        </div>
-        <!-- /why choose us content -->
-
-        <!-- About slider -->
-        <div class="col-md-6">
-          <div id="about-slider" class="owl-carousel owl-theme">
-            <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/about1.jpg" alt="">
-            <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/about2.jpg" alt="">
-            <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/about1.jpg" alt="">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/b8NbKhftVjg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-        <!-- /About slider -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Why Choose Us -->
-
-
-  <!-- Numbers -->
-  <div id="numbers" class="section sm-padding">
-
-    <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('https://colorlib.com/etc/creative-agency/img/background2.jpg');">
-      <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-users"></i>
-            <h3 class="white-text"><span class="counter">451</span></h3>
-            <span class="white-text">Jumlah Siswa</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-trophy"></i>
-            <h3 class="white-text"><span class="counter">12</span></h3>
-            <span class="white-text">Penghargaan</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-coffee"></i>
-            <h3 class="white-text"><span class="counter">154</span>K</h3>
-            <span class="white-text">Prestasi Akademik</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-file"></i>
-            <h3 class="white-text"><span class="counter">45</span></h3>
-            <span class="white-text">Jumlah Alumni</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Numbers -->
-
-  <!-- Pricing -->
-  <div id="pricing" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <!-- <div class="section-header text-center">
-          <h2 class="title">Pricing Table</h2>
-        </div> -->
-        <!-- /Section header -->
-
-        <!-- pricing -->
-        <!-- <div class="col-sm-4">
-          <div class="pricing">
-            <div class="price-head">
-              <span class="price-title">Basic plan</span>
-              <div class="price">
-                <h3>$9<span class="duration">/ month</span></h3>
-              </div>
-            </div>
-            <ul class="price-content">
-              <li>
-                <p>1GB Disk Space</p>
-              </li>
-              <li>
-                <p>100 Email Account</p>
-              </li>
-              <li>
-                <p>24/24 Support</p>
-              </li>
-            </ul>
-            <div class="price-btn">
-              <button class="outline-btn">Purchase now</button>
-            </div>
-          </div>
-        </div> -->
-        <!-- /pricing -->
-
-        <!-- pricing -->
-        <!-- <div class="col-sm-4">
-          <div class="pricing">
-            <div class="price-head">
-              <span class="price-title">Silver plan</span>
-              <div class="price">
-                <h3>$19<span class="duration">/ month</span></h3>
-              </div>
-            </div>
-            <ul class="price-content">
-              <li>
-                <p>1GB Disk Space</p>
-              </li>
-              <li>
-                <p>100 Email Account</p>
-              </li>
-              <li>
-                <p>24/24 Support</p>
-              </li>
-            </ul>
-            <div class="price-btn">
-              <button class="outline-btn">Purchase now</button>
-            </div>
-          </div>
-        </div> -->
-        <!-- /pricing -->
-
-        <!-- pricing -->
-        <!-- <div class="col-sm-4">
-          <div class="pricing">
-            <div class="price-head">
-              <span class="price-title">Gold plan</span>
-              <div class="price">
-                <h3>$39<span class="duration">/ month</span></h3>
-              </div>
-            </div>
-            <ul class="price-content">
-              <li>
-                <p>1GB Disk Space</p>
-              </li>
-              <li>
-                <p>100 Email Account</p>
-              </li>
-              <li>
-                <p>24/24 Support</p>
-              </li>
-            </ul>
-            <div class="price-btn">
-              <button class="outline-btn">Purchase now</button>
-            </div>
-          </div>
-        </div> -->
-        <!-- /pricing -->
-
-      </div>
-      <!-- Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Pricing -->
-
-
-  <!-- Testimonial -->
-  <div id="testimonial" class="section md-padding">
-
-    <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('https://colorlib.com/etc/creative-agency/img/background3.jpg');">
-      <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Testimonial slider -->
-        <div class="col-md-10 col-md-offset-1">
-          <div id="testimonial-slider" class="owl-carousel owl-theme">
-
-            <!-- testimonial -->
-            <div class="testimonial">
-              <div class="testimonial-meta">
-                <img src="https://colorlib.com/etc/creative-agency/img/perso1.jpg" alt="">
-                <h3 class="white-text">Muh Ali Bakhtiar</h3>
-                <span>Web Designer</span>
-              </div>
-              <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-            </div>
-            <!-- /testimonial -->
-
-            <!-- testimonial -->
-            <div class="testimonial">
-              <div class="testimonial-meta">
-                <img src="https://colorlib.com/etc/creative-agency/img/perso2.jpg" alt="">
-                <h3 class="white-text">Baidowi</h3>
-                <span>Web Designer</span>
-              </div>
-              <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-            </div>
-            <!-- /testimonial -->
-
-          </div>
-        </div>
-        <!-- /Testimonial slider -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Testimonial -->
-
-  <!-- Team -->
-  <div id="team" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="section-header text-center">
-          <h2 class="title">Our Team</h2>
-        </div>
-        <!-- /Section header -->
-
-        <!-- team -->
-        <div class="col-sm-4">
-          <div class="team">
-            <div class="team-img">
-              <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/team1.jpg" alt="">
-              <div class="overlay">
-                <div class="team-social">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-google-plus"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-          </div>
-        </div>
-        <!-- /team -->
-
-        <!-- team -->
-        <div class="col-sm-4">
-          <div class="team">
-            <div class="team-img">
-              <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/team2.jpg" alt="">
-              <div class="overlay">
-                <div class="team-social">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-google-plus"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-          </div>
-        </div>
-        <!-- /team -->
-
-        <!-- team -->
-        <div class="col-sm-4">
-          <div class="team">
-            <div class="team-img">
-              <img class="img-responsive" src="https://colorlib.com/etc/creative-agency/img/team3.jpg" alt="">
-              <div class="overlay">
-                <div class="team-social">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-google-plus"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-          </div>
-        </div>
-        <!-- /team -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Team -->
-
-  <!-- Blog -->
-  <div id="blog" class="section md-padding bg-grey">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="section-header text-center">
-          <h2 class="title">Radar Warta Sekolah Kreatif</h2>
-        </div>
-        <!-- /Section header -->
-
-        <!-- blog -->
-        <div class="col-md-4">
-          <div class="blog">
-            <div class="blog-img">
-              <img class="img-responsive" src="./img/blog1.jpg" alt="">
-            </div>
-            <div class="blog-content">
-              <ul class="blog-meta">
-                <li><i class="fa fa-user"></i>John doe</li>
-                <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                <li><i class="fa fa-comments"></i>57</li>
-              </ul>
-              <h3>Molestie at elementum eu facilisis sed odio</h3>
-              <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-              <a href="blog-single.html">Read more</a>
-            </div>
-          </div>
-        </div>
-        <!-- /blog -->
-
-        <!-- blog -->
-        <div class="col-md-4">
-          <div class="blog">
-            <div class="blog-img">
-              <img class="img-responsive" src="./img/blog2.jpg" alt="">
-            </div>
-            <div class="blog-content">
-              <ul class="blog-meta">
-                <li><i class="fa fa-user"></i>John doe</li>
-                <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                <li><i class="fa fa-comments"></i>57</li>
-              </ul>
-              <h3>Molestie at elementum eu facilisis sed odio</h3>
-              <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-              <a href="blog-single.html">Read more</a>
-            </div>
-          </div>
-        </div>
-        <!-- /blog -->
-
-        <!-- blog -->
-        <div class="col-md-4">
-          <div class="blog">
-            <div class="blog-img">
-              <img class="img-responsive" src="./img/blog3.jpg" alt="">
-            </div>
-            <div class="blog-content">
-              <ul class="blog-meta">
-                <li><i class="fa fa-user"></i>John doe</li>
-                <li><i class="fa fa-clock-o"></i>18 Oct</li>
-                <li><i class="fa fa-comments"></i>57</li>
-              </ul>
-              <h3>Molestie at elementum eu facilisis sed odio</h3>
-              <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
-              <a href="blog-single.html">Read more</a>
-            </div>
-          </div>
-        </div>
-        <!-- /blog -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Blog -->
-
-  <!-- Contact -->
-  <div id="contact" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section-header -->
-        <div class="section-header text-center">
-          <h2 class="title">Get in touch</h2>
-        </div>
-        <!-- /Section-header -->
-
-        <!-- contact -->
-        <div class="col-sm-4">
-          <div class="contact">
-            <i class="fa fa-phone"></i>
-            <h3>Phone</h3>
-            <p>085791429242</p>
-          </div>
-        </div>
-        <!-- /contact -->
-
-        <!-- contact -->
-        <div class="col-sm-4">
-          <div class="contact">
-            <i class="fa fa-envelope"></i>
-            <h3>Email</h3>
-            <p>sdmuda_kreatif@yahoo.com</p>
-          </div>
-        </div>
-        <!-- /contact -->
-
-        <!-- contact -->
-        <div class="col-sm-4">
-          <div class="contact">
-            <i class="fa fa-map-marker"></i>
-            <h3>Address</h3>
-            <p>Kemantren - Tulangan - Sidoarjo</p>
-          </div>
-        </div>
-        <!-- /contact -->
-
-        <!-- contact form -->
-        <div class="col-md-8 col-md-offset-2">
-          <form class="contact-form">
-            <input type="text" class="input" placeholder="Name">
-            <input type="email" class="input" placeholder="Email">
-            <input type="text" class="input" placeholder="Subject">
-            <textarea class="input" placeholder="Message"></textarea>
-            <button class="main-btn">Send message</button>
-          </form>
-        </div>
-        <!-- /contact form -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Contact -->
-
-
-  <!-- Footer -->
-  <footer id="footer" class="sm-padding bg-dark">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <div class="col-md-12">
-
-          <!-- footer logo -->
-          <div class="footer-logo">
-            <!-- <a href="index.html"><img src="https://colorlib.com/etc/creative-agency/img/logo-alt.png" alt="logo"></a> -->
-          </div>
-          <!-- /footer logo -->
-
-          <!-- footer follow -->
-          <ul class="footer-follow">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-          </ul>
-          <!-- /footer follow -->
-
-          <!-- footer copyright -->
-          <div class="footer-copyright">
-            <p>Copyright © 2017. All Rights Reserved. Designed by <a href="#" target="_blank">Muh Ali Bakhtiar</a></p>
-          </div>
-          <!-- /footer copyright -->
-
-        </div>
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </footer>
-  <!-- /Footer -->
-
-  <!-- Back to top -->
-  <div id="back-to-top"></div>
-  <!-- /Back to top -->
-
-  <!-- Preloader -->
+<body class="home page-template page-template-page-onepage page-template-page-onepage-php page page-id-8 elementor-default elementor-page elementor-page-8">
   <div id="preloader">
-    <div class="preloader">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+    <div class="outer">
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
     </div>
   </div>
-  <!-- /Preloader -->
-
-  <!-- jQuery Plugins -->
-  <script data-cfasync="false" src="https://colorlib.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-  <script type="text/javascript" src="https://colorlib.com/etc/creative-agency/js/jquery.min.js"></script>
-  <script type="text/javascript" src="https://colorlib.com/etc/creative-agency/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="https://colorlib.com/etc/creative-agency/js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="https://colorlib.com/etc/creative-agency/js/jquery.magnific-popup.js"></script>
-  <script type="text/javascript" src="https://colorlib.com/etc/creative-agency/js/main.js"></script>
-  <!--javascript tulisan otomatis-->
-  <script type="text/javascript">
-    var is_user_premium = 0;
+  <div class="site-wrapper">
+    <div class="mobile-header py-2 px-3 mt-4"> <button class="menu-icon mr-2"> <span></span> <span></span> <span></span> </button> <a href="https://pxltheme.com/wp/bako/" class="logo"><noscript><img
+            src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/logo-1.png" alt="Bako Doe" class="circle" /></noscript><img src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E'
+          data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/logo-1.png" alt="Bako Doe" class="lazyload circle" /></a> <a href="https://pxltheme.com/wp/bako/" class="site-title dot ml-2">Bako Doe</a></div>
+    <header class="left float-left shadow-dark" id="header"> <button type="button" class="close" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      <div class="header-inner d-flex align-items-start flex-column"> <a href="#"><noscript><img  class="rounded" width = "100" height="100" src="static/images/ali22.png" alt="M.A.B" /></noscript><img class="lazyload"
+            src='static/images/ali22.png' data-src="static/images/ali22.png" alt="M.A.B" /></a> <a
+          href="#" class="site-title dot mt-3">Muh Ali Bakhtiar</a> <span class="site-slogan">Web Developer</span>
+        <nav>
+          <ul id="menu-one-page-menu" class="vertical-menu onepage-menu">
+            <li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="#about"><i class="fa fa-user-o" aria-hidden="true"></i>About Me</a></li>
+            <li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="#services"><i class="fa fa-laptop" aria-hidden="true"></i>Service</a></li>
+            <li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="#resume"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Resume</a></li>
+            <!-- <li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="#works"><i class="icon-grid"></i>Works</a></li> -->
+            <!-- <li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="#blog"><i class="icon-pencil"></i>Blog</a></li> -->
+            <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer mt-auto">
+          <ul class="social-icons list-inline">
+            <li class="list-inline-item"> <a href="#" target="_blank"> <i class="fa fa-telegram" aria-hidden="true"></i> </a></li>
+            <li class="list-inline-item"> <a href="#" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> </a></li>
+            <li class="list-inline-item"> <a href="#" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+          </ul> <span class="copyright"> © 2020 M.A.B Theme </span>
+        </div>
+      </div>
+    </header>
+    <main class="content float-right">
+      <div data-elementor-type="wp-post" data-elementor-id="8" class="elementor elementor-8" data-elementor-settings="[]">
+        <div class="elementor-inner">
+          <div class="elementor-section-wrap">
+            <section class="elementor-element elementor-element-bf95336 elementor-section-height-min-height shadow-dark elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
+              data-id="bf95336" data-element_type="section" id="home" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-background-overlay"></div>
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-f2438ee elementor-column elementor-col-100 elementor-top-column" data-id="f2438ee" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-3f69f3f elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="3f69f3f" data-element_type="widget" data-widget_type="heading.default">
+                          <div class="elementor-widget-container">
+                            <h1 class="elementor-heading-title elementor-size-default">I'm Muh Ali Bakhtiar<span class="dot"></span></h1>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-c15fb9f elementor-widget elementor-widget-text-editor" data-id="c15fb9f" data-element_type="widget" data-widget_type="text-editor.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-text-editor elementor-clearfix">
+                              <p>Keep going to upgrade learn Python Language for my skill. Growth and Forward is the goal in my life .</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-62c7ffb elementor-widget__width-auto elementor-widget elementor-widget-bako-button" data-id="62c7ffb" data-element_type="widget" data-widget_type="bako-button.default">
+                          <!-- <div class="elementor-widget-container"> <a href="#" class="btn btn-default btn-lg"> <i class="icon-grid"></i> View Portfolio </a></div> -->
+                        </div>
+                        <div class="elementor-element elementor-element-113d6f7 elementor-widget__width-auto elementor-widget elementor-widget-bako-button" data-id="113d6f7" data-element_type="widget" data-widget_type="bako-button.default">
+                          <div class="elementor-widget-container"> <a href="#" class="btn btn-border-light btn-lg"> <i class="fa fa-envelope" aria-hidden="true"></i> Hire Me </a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="elementor-element elementor-element-6d67668 shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6d67668"
+              data-element_type="section" id="about" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-ede915b elementor-column elementor-col-100 elementor-top-column" data-id="ede915b" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-fd830f6 elementor-widget elementor-widget-bako-section-title" data-id="fd830f6" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">About Me</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-a93180a elementor-widget elementor-widget-spacer" data-id="a93180a" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <section class="elementor-element elementor-element-28fff55 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="28fff55"
+                          data-element_type="section">
+                          <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                              <div class="elementor-element elementor-element-d65c8d2 elementor-column elementor-col-33 elementor-inner-column" data-id="d65c8d2" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-d5bd739 elementor-widget elementor-widget-image" data-id="d5bd739" data-element_type="widget" data-widget_type="image.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-image"> <noscript><img width="150" height="150" src="static/images/ali22.png" class="attachment-large size-large" alt="" /></noscript><img
+                                            width="150" height="150" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20150%20150%22%3E%3C/svg%3E'
+                                            data-src="static/images/ali22.png" class="lazyload attachment-large size-large" alt="" /></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="elementor-element elementor-element-cad0286 elementor-column elementor-col-66 elementor-inner-column" data-id="cad0286" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-9c6553d elementor-widget elementor-widget-heading" data-id="9c6553d" data-element_type="widget" data-widget_type="heading.default">
+                                      <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">Hello,</h2>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-3737e0f elementor-widget elementor-widget-spacer" data-id="3737e0f" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-9d2dba6 elementor-widget elementor-widget-text-editor" data-id="9d2dba6" data-element_type="widget" data-widget_type="text-editor.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-text-editor elementor-clearfix">
+                                          <p>I'm Muh Ali Bakhtiar, Web Developer using Flask - Python as Backend from Jember, Indonesia. I have rich experience in web developer., also I am also insterest for development
+                                           language to more.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-042711a elementor-widget elementor-widget-spacer" data-id="042711a" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-7688d38 elementor-widget elementor-widget-html" data-id="7688d38" data-element_type="widget" data-widget_type="html.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                            <p class="mb-2">Name: <span class="text-dark">Muh Ali Bakhtiar</span></p>
+                                            <p class="mb-0">Birthday: <span class="text-dark">07 January, 1994</span></p>
+                                          </div>
+                                          <div class="col-md-6 mt-2 mt-md-0 mt-sm-2">
+                                            <p class="mb-2">Location: <span class="text-dark">Jember, IDN</span></p>
+                                            <p class="mb-0">Email: <span class="text-dark">muhalibakhtiar@gmail.com</span></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-e2cbf88 elementor-widget elementor-widget-spacer" data-id="e2cbf88" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-7c95bda elementor-widget__width-auto elementor-widget elementor-widget-bako-button" data-id="7c95bda" data-element_type="widget"
+                                      data-widget_type="bako-button.default">
+                                      <div class="elementor-widget-container"> <a href="" class="btn btn-default "> <i class="fa fa-cloud-download" aria-hidden="true"></i> Download CV </a></div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-b436955 elementor-widget__width-auto elementor-widget elementor-widget-bako-button" data-id="b436955" data-element_type="widget"
+                                      data-widget_type="bako-button.default">
+                                      <div class="elementor-widget-container"> <a href="#" class="btn btn-alt "> <i class="fa fa-envelope" aria-hidden="true"></i> Hire Me </a></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="elementor-element elementor-element-5db37a3 shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5db37a3"
+              data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-beac6dc elementor-column elementor-col-100 elementor-top-column" data-id="beac6dc" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-b29a76a elementor-widget elementor-widget-bako-section-title" data-id="b29a76a" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">My skills</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-686750c elementor-widget elementor-widget-spacer" data-id="686750c" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-3695189 elementor-widget elementor-widget-text-editor" data-id="3695189" data-element_type="widget" data-widget_type="text-editor.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-text-editor elementor-clearfix">
+                              <p>My passion is coding, learn a new something about programming language especially upgrading python. Because python so easy to learning for beginner a like me.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-55337b5 elementor-widget elementor-widget-spacer" data-id="55337b5" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <section class="elementor-element elementor-element-5c34dc1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="5c34dc1"
+                          data-element_type="section">
+                          <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                              <div class="elementor-element elementor-element-68da637 elementor-column elementor-col-50 elementor-inner-column" data-id="68da637" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-d20b90f elementor-widget elementor-widget-bako-skill" data-id="d20b90f" data-element_type="widget" data-widget_type="bako-skill.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="skill-item">
+                                          <div class="skill-info clearfix">
+                                            <h4 class="float-left mb-3 mt-0">Python</h4> <span class="float-right">85%</span>
+                                          </div>
+                                          <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-5ea9c25 elementor-widget elementor-widget-spacer" data-id="5ea9c25" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-8f71e07 elementor-widget elementor-widget-bako-skill" data-id="8f71e07" data-element_type="widget" data-widget_type="bako-skill.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="skill-item">
+                                          <div class="skill-info clearfix">
+                                            <h4 class="float-left mb-3 mt-0">MySQL</h4> <span class="float-right">85%</span>
+                                          </div>
+                                          <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="elementor-element elementor-element-c7591be elementor-column elementor-col-50 elementor-inner-column" data-id="c7591be" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-5379ebd elementor-widget elementor-widget-spacer" data-id="5379ebd" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-7dcfddf elementor-widget elementor-widget-bako-skill" data-id="7dcfddf" data-element_type="widget" data-widget_type="bako-skill.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="skill-item">
+                                          <div class="skill-info clearfix">
+                                            <h4 class="float-left mb-3 mt-0">HTML &amp; CSS</h4> <span class="float-right">90%</span>
+                                          </div>
+                                          <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-7a4459b elementor-widget elementor-widget-spacer" data-id="7a4459b" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-a2ed665 elementor-widget elementor-widget-bako-skill" data-id="a2ed665" data-element_type="widget" data-widget_type="bako-skill.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="skill-item">
+                                          <div class="skill-info clearfix">
+                                            <h4 class="float-left mb-3 mt-0">Git Control</h4> <span class="float-right">80%</span>
+                                          </div>
+                                          <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="elementor-element elementor-element-d37343a shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d37343a"
+              data-element_type="section" id="services" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-816c7b4 elementor-column elementor-col-100 elementor-top-column" data-id="816c7b4" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-f2334b4 elementor-widget elementor-widget-bako-section-title" data-id="f2334b4" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">Services</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-bcb34d9 elementor-widget elementor-widget-spacer" data-id="bcb34d9" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <section class="elementor-element elementor-element-914e9ba elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="914e9ba"
+                          data-element_type="section">
+                          <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                              <div class="elementor-element elementor-element-6bf4694 elementor-column elementor-col-33 elementor-inner-column" data-id="6bf4694" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-380f894 elementor-widget elementor-widget-bako-service" data-id="380f894" data-element_type="widget" data-widget_type="bako-service.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="service-item text-center"> <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                          <h4 class="my-3">Web Develepment</h4>
+                                          <p class="mb-0">Development web using HTML 5, CSS, Javascript, Djinja and other library Frontend a like Bootstrap and  Using Flask - Python for Backend </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-70fb438 elementor-widget elementor-widget-spacer" data-id="70fb438" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="elementor-element elementor-element-e705638 elementor-column elementor-col-33 elementor-inner-column" data-id="e705638" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-957bafc elementor-widget elementor-widget-bako-service" data-id="957bafc" data-element_type="widget" data-widget_type="bako-service.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="service-item text-center"> <i class="fa fa-code-fork fa-2x" aria-hidden="true"></i>
+                                          <h4 class="my-3">Git</h4>
+                                          <p class="mb-0">To easlly working with Team, I'm usually using repository a like Bitbucket, Github, or etc.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-2244cde elementor-widget elementor-widget-spacer" data-id="2244cde" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="elementor-element elementor-element-3892869 elementor-column elementor-col-33 elementor-inner-column" data-id="3892869" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-62d1dc7 elementor-widget elementor-widget-bako-service" data-id="62d1dc7" data-element_type="widget" data-widget_type="bako-service.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="service-item text-center"> <i class="fa fa-database fa-2x" aria-hidden="true"></i>
+                                          <h4 class="my-3">SQL Database</h4>
+                                          <p class="mb-0">SQL Database more important for web development to save a data. I'm use MySQL Database because I'm familiar to using it, but I also processing to learning NoSQL a like MOngo DB.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-e88a901 elementor-widget elementor-widget-spacer" data-id="e88a901" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="elementor-element elementor-element-6035891 shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6035891"
+              data-element_type="section" id="resume" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-622d1cb elementor-column elementor-col-100 elementor-top-column" data-id="622d1cb" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-2430684 elementor-widget elementor-widget-bako-section-title" data-id="2430684" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">Experience</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-8c19699 elementor-widget elementor-widget-spacer" data-id="8c19699" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-dc80888 elementor-widget elementor-widget-bako-timeline" data-id="dc80888" data-element_type="widget" data-widget_type="bako-timeline.default">
+                          <div class="elementor-widget-container">
+                              <div class="entry">
+                                <div class="title"> <span>2018 - 2015</span></div>
+                                <div class="body">
+                                  <h4 class="mt-0">Bachelor’s Degree</h4>
+                                  <p>I've graduated Science and Technology at University Muhammadiyah of Sidoarjo .</p>
+                                </div>
+                              </div>
+                              <div class="entry">
+                                <div class="title"> <span>2013 - 2012</span></div>
+                                <div class="body">
+                                  <h4 class="mt-0">Honours Degree (D1)</h4>
+                                  <p>I've graduated computer office administration and export import business applications school at Wearnes Education Center of Malang.</p>
+                                </div>
+                              </div> <span class="timeline-line"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- <section class="elementor-element elementor-element-03637ba shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="03637ba"
+              data-element_type="section" id="works" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-9884b88 elementor-column elementor-col-100 elementor-top-column" data-id="9884b88" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-96946c1 elementor-widget elementor-widget-bako-section-title" data-id="96946c1" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">Portfolio</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-f39685f elementor-widget elementor-widget-spacer" data-id="f39685f" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-8496847 elementor-widget elementor-widget-bako-portfolio" data-id="8496847" data-element_type="widget" data-widget_type="bako-portfolio.default">
+                          <div class="elementor-widget-container">
+                            <ul class="portfolio-filter list-inline">
+                              <li class="current list-inline-item" data-filter="*">All Projects</li>
+                              <li class="list-inline-item" data-filter=".branding">Branding</li>
+                              <li class="list-inline-item" data-filter=".creative">Creative</li>
+                              <li class="list-inline-item" data-filter=".design">Design</li>
+                              <li class="list-inline-item" data-filter=".video">Video</li>
+                            </ul>
+                            <div class="pf-filter-wrapper mb-4"> <select class="portfolio-filter-mobile">
+                                <option value="*">All Projects</option>
+                                <option value=".video">Video</option>
+                              </select></div>
+                            <div class="row portfolio-wrapper">
+                              <div class="col-md-4 col-sm-6 grid-item branding creative "> <a href="https://pxltheme.com/wp/bako/portfolio/iphone-xs/">
+                                  <div class="portfolio-item">
+                                    <div class="details">
+                                      <h4 class="title">iPhone XS</h4> <span class='term'>Branding</span><span class='term'>Creative</span>
+                                    </div> <span class="plus-icon">+</span>
+                                    <div class="thumb"> <noscript><img width="420" height="315" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1.jpg" class="attachment-425x315 size-425x315 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1-768x576.jpg 768w"
+                                          sizes="(max-width: 420px) 100vw, 420px" /></noscript><img width="420" height="315" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20315%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1.jpg" class="lazyload attachment-425x315 size-425x315 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-1-768x576.jpg 768w"
+                                        data-sizes="(max-width: 420px) 100vw, 420px" />
+                                      <div class="mask"></div>
+                                    </div>
+                                  </div>
+                                </a></div>
+                              <div class="col-md-4 col-sm-6 grid-item branding design "> <a href="https://pxltheme.com/wp/bako/portfolio/apple-earpod/">
+                                  <div class="portfolio-item">
+                                    <div class="details">
+                                      <h4 class="title">Apple Earpod</h4> <span class='term'>Branding</span><span class='term'>Design</span>
+                                    </div> <span class="plus-icon">+</span>
+                                    <div class="thumb"> <noscript><img width="420" height="315" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1.jpg" class="attachment-425x315 size-425x315 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1-768x576.jpg 768w"
+                                          sizes="(max-width: 420px) 100vw, 420px" /></noscript><img width="420" height="315" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20315%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1.jpg" class="lazyload attachment-425x315 size-425x315 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-1-768x576.jpg 768w"
+                                        data-sizes="(max-width: 420px) 100vw, 420px" />
+                                      <div class="mask"></div>
+                                    </div>
+                                  </div>
+                                </a></div>
+                              <div class="col-md-4 col-sm-6 grid-item creative video "> <a href="https://pxltheme.com/wp/bako/portfolio/work-space/">
+                                  <div class="portfolio-item">
+                                    <div class="details">
+                                      <h4 class="title">Work Space</h4> <span class='term'>Creative</span><span class='term'>Video</span>
+                                    </div> <span class="plus-icon">+</span>
+                                    <div class="thumb"> <noscript><img width="420" height="315" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1.jpg" class="attachment-425x315 size-425x315 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1-768x576.jpg 768w"
+                                          sizes="(max-width: 420px) 100vw, 420px" /></noscript><img width="420" height="315" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20315%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1.jpg" class="lazyload attachment-425x315 size-425x315 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-1-768x576.jpg 768w"
+                                        data-sizes="(max-width: 420px) 100vw, 420px" />
+                                      <div class="mask"></div>
+                                    </div>
+                                  </div>
+                                </a></div>
+                              <div class="col-md-4 col-sm-6 grid-item design "> <a href="https://pxltheme.com/wp/bako/portfolio/playstation/">
+                                  <div class="portfolio-item">
+                                    <div class="details">
+                                      <h4 class="title">PlayStation</h4> <span class='term'>Design</span>
+                                    </div> <span class="plus-icon">+</span>
+                                    <div class="thumb"> <noscript><img width="420" height="315" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4.jpg" class="attachment-425x315 size-425x315 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4-768x576.jpg 768w"
+                                          sizes="(max-width: 420px) 100vw, 420px" /></noscript><img width="420" height="315" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20315%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4.jpg" class="lazyload attachment-425x315 size-425x315 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4-768x576.jpg 768w"
+                                        data-sizes="(max-width: 420px) 100vw, 420px" />
+                                      <div class="mask"></div>
+                                    </div>
+                                  </div>
+                                </a></div>
+                              <div class="col-md-4 col-sm-6 grid-item branding video "> <a href="https://pxltheme.com/wp/bako/portfolio/iphone-x-2/">
+                                  <div class="portfolio-item">
+                                    <div class="details">
+                                      <h4 class="title">Pen Mockup</h4> <span class='term'>Branding</span><span class='term'>Video</span>
+                                    </div> <span class="plus-icon">+</span>
+                                    <div class="thumb"> <noscript><img width="420" height="315" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5.jpg" class="attachment-425x315 size-425x315 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5-768x576.jpg 768w"
+                                          sizes="(max-width: 420px) 100vw, 420px" /></noscript><img width="420" height="315" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20315%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5.jpg" class="lazyload attachment-425x315 size-425x315 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/5-768x576.jpg 768w"
+                                        data-sizes="(max-width: 420px) 100vw, 420px" />
+                                      <div class="mask"></div>
+                                    </div>
+                                  </div>
+                                </a></div>
+                              <div class="col-md-4 col-sm-6 grid-item creative design "> <a href="https://pxltheme.com/wp/bako/portfolio/minimal-art/">
+                                  <div class="portfolio-item">
+                                    <div class="details">
+                                      <h4 class="title">Minimal Art</h4> <span class='term'>Creative</span><span class='term'>Design</span>
+                                    </div> <span class="plus-icon">+</span>
+                                    <div class="thumb"> <noscript><img width="420" height="315" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6.jpg" class="attachment-425x315 size-425x315 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6-768x576.jpg 768w"
+                                          sizes="(max-width: 420px) 100vw, 420px" /></noscript><img width="420" height="315" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20315%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6.jpg" class="lazyload attachment-425x315 size-425x315 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/6-768x576.jpg 768w"
+                                        data-sizes="(max-width: 420px) 100vw, 420px" />
+                                      <div class="mask"></div>
+                                    </div>
+                                  </div>
+                                </a></div>
+                            </div>
+                            <ul class="portfolio-pagination list-inline d-none">
+                              <li class='list-inline-item'><span aria-current="page" class="page-numbers current">1</span></li>
+                              <li class='list-inline-item'><a class="page-numbers" href="https://pxltheme.com/wp/bako/page/2/">2</a></li>
+                            </ul>
+                            <div class="load-more text-center mt-4"> <a href="javascript:" class="btn btn-default"><i class="fas fa-circle-notch"></i>Load more</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+            <!-- <section class="elementor-element elementor-element-76bd5a0 shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="76bd5a0"
+              data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-7a849a5 elementor-column elementor-col-100 elementor-top-column" data-id="7a849a5" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-0e7d0ac elementor-widget elementor-widget-bako-section-title" data-id="0e7d0ac" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">Pricing table</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-2a753a2 elementor-widget elementor-widget-spacer" data-id="2a753a2" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <section
+                          class="elementor-element elementor-element-2747f88 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section"
+                          data-id="2747f88" data-element_type="section">
+                          <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                              <div class="elementor-element elementor-element-099e1c6 elementor-column elementor-col-33 elementor-inner-column" data-id="099e1c6" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-a68a87f elementor-widget elementor-widget-bako-price" data-id="a68a87f" data-element_type="widget" data-widget_type="bako-price.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="price-item text-center "> <i class="price-icon icon-energy"></i> <span class="plan">Basic</span>
+                                          <h3 class="price"> <em>$</em> 14 <span>/mo</span></h3>
+                                          <div class="price-content">
+                                            <ul>
+                                              <li>Frontend Builder</li>
+                                              <li>Regular Support</li>
+                                              <li>1 Years of Updates</li>
+                                            </ul>
+                                          </div> <a href="#" class="btn btn-default">Get Started</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="elementor-element elementor-element-8cc5046 elementor-column elementor-col-33 elementor-inner-column" data-id="8cc5046" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-c53711f elementor-widget elementor-widget-bako-price" data-id="c53711f" data-element_type="widget" data-widget_type="bako-price.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="price-item text-center recommended"> <i class="price-icon icon-fire"></i> <span class="plan">Professional</span>
+                                          <h3 class="price"> <em>$</em> 41 <span>/mo</span></h3>
+                                          <div class="price-content">
+                                            <ul>
+                                              <li>Frontend Builder</li>
+                                              <li>Regular Support</li>
+                                              <li>2 Years of Updates</li>
+                                              <li>White Labeling</li>
+                                            </ul>
+                                          </div> <a href="#" class="btn btn-default">Get Started</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="elementor-element elementor-element-b7157b3 elementor-column elementor-col-33 elementor-inner-column" data-id="b7157b3" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-3912000 elementor-widget elementor-widget-bako-price" data-id="3912000" data-element_type="widget" data-widget_type="bako-price.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="price-item text-center "> <i class="price-icon icon-rocket"></i> <span class="plan">Premium</span>
+                                          <h3 class="price"> <em>$</em> 99 <span>/mo</span></h3>
+                                          <div class="price-content">
+                                            <ul>
+                                              <li>Frontend Builder</li>
+                                              <li>Regular Support</li>
+                                              <li>1 Years of Updates</li>
+                                            </ul>
+                                          </div> <a href="#" class="btn btn-default">Get Started</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+            <!-- <section class="elementor-element elementor-element-dfcdc3c shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="dfcdc3c"
+              data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-dad4586 elementor-column elementor-col-100 elementor-top-column" data-id="dad4586" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-22b3124 elementor-widget elementor-widget-bako-section-title" data-id="22b3124" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">Testimonials</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-2760e3b elementor-widget elementor-widget-spacer" data-id="2760e3b" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-7805ba1 elementor-widget elementor-widget-bako-testimonial" data-id="7805ba1" data-element_type="widget" data-widget_type="bako-testimonial.default">
+                          <div class="elementor-widget-container">
+                            <div class="row testimonials-wrapper">
+                              <div class="col-md-6">
+                                <div class="testimonial-item"> <span class="symbol"><i class="fas fa-quote-left"></i></span>
+                                  <p>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
+                                  <div class="testimonial-details">
+                                    <div class="thumb"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/customer-1.png" alt="customer-name" /></noscript><img class="lazyload"
+                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/customer-1.png"
+                                        alt="customer-name" /></div>
+                                    <div class="info">
+                                      <h4>Helen Doe</h4> <span>Themeforest customer</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="testimonial-item"> <span class="symbol"><i class="fas fa-quote-left"></i></span>
+                                  <p>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
+                                  <div class="testimonial-details">
+                                    <div class="thumb"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/customer-2.png" alt="customer-name" /></noscript><img class="lazyload"
+                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/customer-2.png"
+                                        alt="customer-name" /></div>
+                                    <div class="info">
+                                      <h4>Jane Doe</h4> <span>Themeforest customer</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="testimonial-item"> <span class="symbol"><i class="fas fa-quote-left"></i></span>
+                                  <p>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
+                                  <div class="testimonial-details">
+                                    <div class="thumb"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/customer-1.png" alt="customer-name" /></noscript><img class="lazyload"
+                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/customer-1.png"
+                                        alt="customer-name" /></div>
+                                    <div class="info">
+                                      <h4>Helen Doe</h4> <span>Themeforest customer</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="elementor-element elementor-element-25748d4 shadow-dark elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="25748d4"
+              data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-background-overlay"></div>
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-1f880db elementor-column elementor-col-100 elementor-top-column" data-id="1f880db" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-ec182da elementor-widget elementor-widget-bako-clients" data-id="ec182da" data-element_type="widget" data-widget_type="bako-clients.default">
+                          <div class="elementor-widget-container">
+                            <div class="clients-wrapper row">
+                              <div class="col-md-3">
+                                <div class="client-item">
+                                  <div class="inner"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1.png" alt="client-name" /></noscript><img class="lazyload"
+                                      src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1.png" alt="client-name" /></div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="client-item">
+                                  <div class="inner"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.png" alt="client-name" /></noscript><img class="lazyload"
+                                      src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.png" alt="client-name" /></div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="client-item">
+                                  <div class="inner"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3.png" alt="client-name" /></noscript><img class="lazyload"
+                                      src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3.png" alt="client-name" /></div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="client-item">
+                                  <div class="inner"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4.png" alt="client-name" /></noscript><img class="lazyload"
+                                      src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/4.png" alt="client-name" /></div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="client-item">
+                                  <div class="inner"> <noscript><img src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.png" alt="client-name" /></noscript><img class="lazyload"
+                                      src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="http://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.png" alt="client-name" /></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="elementor-element elementor-element-c2eb944 shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c2eb944"
+              data-element_type="section" id="blog" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-2c202f3 elementor-column elementor-col-100 elementor-top-column" data-id="2c202f3" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-5760157 elementor-widget elementor-widget-bako-section-title" data-id="5760157" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">Recent posts</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-5484565 elementor-widget elementor-widget-spacer" data-id="5484565" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-b0be048 elementor-widget elementor-widget-bako-posts" data-id="b0be048" data-element_type="widget" data-widget_type="bako-posts.default">
+                          <div class="elementor-widget-container">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="blog-item">
+                                  <div class="thumb"> <a href="https://pxltheme.com/wp/bako/category/thoughts/"><span class="category">Thoughts</span></a><a
+                                      href="https://pxltheme.com/wp/bako/2019/04/08/the-truth-about-design-in-3-minutes/"><noscript><img width="243" height="182" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1.jpg"
+                                          class="attachment-245x182 size-245x182 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-768x576.jpg 768w"
+                                          sizes="(max-width: 243px) 100vw, 243px" /></noscript><img width="243" height="182" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20243%20182%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1.jpg" class="lazyload attachment-245x182 size-245x182 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/1-768x576.jpg 768w"
+                                        data-sizes="(max-width: 243px) 100vw, 243px" /></a></div>
+                                  <h4 class="mt-4 mb-0"><a href="https://pxltheme.com/wp/bako/2019/04/08/the-truth-about-design-in-3-minutes/">The Truth About Design In 3 Minutes</a></h4>
+                                  <ul class="list-inline meta mb-0 mt-3">
+                                    <li class="list-inline-item">08 April 2019</li>
+                                    <li class="list-inline-item"><a href="https://pxltheme.com/wp/bako/author/admin/" title="Posts by Bako Doe" rel="author">Bako Doe</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="blog-item">
+                                  <div class="thumb"> <a href="https://pxltheme.com/wp/bako/category/blog/"><span class="category">Blog</span></a><a href="https://pxltheme.com/wp/bako/2019/04/08/the-ugly-truth-about-design/"><noscript><img
+                                          width="243" height="182" src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.jpg" class="attachment-245x182 size-245x182 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-768x576.jpg 768w"
+                                          sizes="(max-width: 243px) 100vw, 243px" /></noscript><img width="243" height="182" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20243%20182%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.jpg" class="lazyload attachment-245x182 size-245x182 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/2-768x576.jpg 768w"
+                                        data-sizes="(max-width: 243px) 100vw, 243px" /></a></div>
+                                  <h4 class="mt-4 mb-0"><a href="https://pxltheme.com/wp/bako/2019/04/08/the-ugly-truth-about-design/">The Ugly Truth About Design</a></h4>
+                                  <ul class="list-inline meta mb-0 mt-3">
+                                    <li class="list-inline-item">08 April 2019</li>
+                                    <li class="list-inline-item"><a href="https://pxltheme.com/wp/bako/author/admin/" title="Posts by Bako Doe" rel="author">Bako Doe</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="blog-item">
+                                  <div class="thumb"> <a href="https://pxltheme.com/wp/bako/category/tech/"><span class="category">Tech</span></a><a href="https://pxltheme.com/wp/bako/2019/04/07/hello-world/"><noscript><img width="243" height="182"
+                                          src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3.jpg" class="attachment-245x182 size-245x182 wp-post-image" alt=""
+                                          srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-768x576.jpg 768w"
+                                          sizes="(max-width: 243px) 100vw, 243px" /></noscript><img width="243" height="182" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20243%20182%22%3E%3C/svg%3E'
+                                        data-src="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3.jpg" class="lazyload attachment-245x182 size-245x182 wp-post-image" alt=""
+                                        data-srcset="https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3.jpg 800w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-300x225.jpg 300w, https://pxltheme.com/wp/bako/wp-content/uploads/2019/04/3-768x576.jpg 768w"
+                                        data-sizes="(max-width: 243px) 100vw, 243px" /></a></div>
+                                  <h4 class="mt-4 mb-0"><a href="https://pxltheme.com/wp/bako/2019/04/07/hello-world/">How To Become Better With UI Design</a></h4>
+                                  <ul class="list-inline meta mb-0 mt-3">
+                                    <li class="list-inline-item">07 April 2019</li>
+                                    <li class="list-inline-item"><a href="https://pxltheme.com/wp/bako/author/admin/" title="Posts by Bako Doe" rel="author">Bako Doe</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+            <section class="elementor-element elementor-element-688b47d shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="688b47d"
+              data-element_type="section" id="contact" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div class="elementor-element elementor-element-91ecb8a elementor-column elementor-col-100 elementor-top-column" data-id="91ecb8a" data-element_type="column">
+                    <div class="elementor-column-wrap  elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-59c6a94 elementor-widget elementor-widget-bako-section-title" data-id="59c6a94" data-element_type="widget" data-widget_type="bako-section-title.default">
+                          <div class="elementor-widget-container">
+                            <h3 class="section-title">Get in touch</h3>
+                          </div>
+                        </div>
+                        <div class="elementor-element elementor-element-e5d8fe5 elementor-widget elementor-widget-spacer" data-id="e5d8fe5" data-element_type="widget" data-widget_type="spacer.default">
+                          <div class="elementor-widget-container">
+                            <div class="elementor-spacer">
+                              <div class="elementor-spacer-inner"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <section class="elementor-element elementor-element-32eaa98 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="32eaa98"
+                          data-element_type="section">
+                          <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                              <div class="elementor-element elementor-element-3f4ccb2 elementor-column elementor-col-33 elementor-inner-column" data-id="3f4ccb2" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-fca804d elementor-widget elementor-widget-bako-contact" data-id="fca804d" data-element_type="widget" data-widget_type="bako-contact.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="contact-info"> <i class="fa fa-phone" aria-hidden="true"></i>
+                                          <div class="details">
+                                            <h5>Phone</h5> <span>+62 8155 3334 5534</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-c5713f0 elementor-widget elementor-widget-spacer" data-id="c5713f0" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-447fdff elementor-widget elementor-widget-bako-contact" data-id="447fdff" data-element_type="widget" data-widget_type="bako-contact.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="contact-info"> <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                          <div class="details">
+                                            <h5>Email address</h5> <span>muhalibakhtiar@gmail.com</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-e7f3dd5 elementor-widget elementor-widget-spacer" data-id="e7f3dd5" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-972adfd elementor-widget elementor-widget-bako-contact" data-id="972adfd" data-element_type="widget" data-widget_type="bako-contact.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="contact-info"> <i class="fa fa-street-view" aria-hidden="true"></i>
+                                          <div class="details">
+                                            <h5>Location</h5> <span>Arum Dalu Street, Dukuh - Dempok Village, Jember, Indonesia</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="elementor-element elementor-element-ad7c6f4 elementor-column elementor-col-66 elementor-inner-column" data-id="ad7c6f4" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                  <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-503edda elementor-widget elementor-widget-spacer" data-id="503edda" data-element_type="widget" data-widget_type="spacer.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-spacer">
+                                          <div class="elementor-spacer-inner"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-a477687 elementor-widget elementor-widget-shortcode" data-id="a477687" data-element_type="widget" data-widget_type="shortcode.default">
+                                      <div class="elementor-widget-container">
+                                        <div class="elementor-shortcode">
+                                          <div role="form" class="wpcf7" id="wpcf7-f82-p8-o1" lang="en-US" dir="ltr">
+                                            <div class="screen-reader-response"></div>
+                                            <form action="/wp/bako/#wpcf7-f82-p8-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                              <div style="display: none;"> <input type="hidden" name="_wpcf7" value="82" /> <input type="hidden" name="_wpcf7_version" value="5.1.6" /> <input type="hidden" name="_wpcf7_locale" value="en_US" /> <input
+                                                  type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f82-p8-o1" /> <input type="hidden" name="_wpcf7_container_post" value="8" /></div>
+                                              <div class="row">
+                                                <div class="column col-md-6">
+                                                  </p>
+                                                  <div class="form-group"> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Muh Ali Bakhtiar" value="" disabled /></span></div>
+                                                  </p>
+                                                </div>
+                                                <div class="column col-md-6">
+                                                  </p>
+                                                  <div class="form-group"> <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false"
+                                                        placeholder="Web Developer" disabled /></span></div>
+                                                  </p>
+                                                </div>
+                                                <div class="column col-md-12">
+                                                  </p>
+                                                  <div class="form-group"> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Stay Hungry, Stay Foolish" /></span></div>
+                                                  </p>
+                                                </div>
+                                                <div class="column col-md-12">
+                                                  </p>
+                                                  <div class="form-group"> <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="4"
+                                                        class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Don't worry to fall, you can stand up to try again using other way."></textarea></span></div>
+                                                  </p>
+                                                </div>
+                                                </p>
+                                              </div>
+                                              <p><button type="button" name="submit" id="submit" value="button" class="wpcf7-submit btn btn-default">Hire Me for your company</button></p>
+                                              <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                            </form>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div> <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a> <noscript>
+    <style>
+      .lazyload {
+        display: none;
+      }
+    </style>
+  </noscript>
+  <script data-noptimize="1">
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    window.lazySizesConfig.loadMode = 1;
   </script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.min.js"></script>
-  <script type="text/javascript" src="https://codesaya.b-cdn.net/static/js/base4.js"></script>
-  <script type="text/javascript" src="https://codesaya.b-cdn.net/static/js/showads.js"></script>
-  <script type="text/javascript">
-    $('.carousel').carousel({
-      interval: 7000
-    })
-    $(function() {
-      $(".typed").typed({
-        strings: ["^1500 mudah..", "^1000 seru..", "^1000 asyik..", "^1000 cepat ya di ^1000Sekolah Kreatif!^1000 ^2000"],
-        typeSpeed: 140,
-        loop: true,
-        backDelay: 1250,
-        startDelay: 100
-      });
-    });
+  <script async data-noptimize="1" src='https://pxltheme.com/wp/bako/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=2.6.1'></script>
+  <script type='text/javascript'>
+    var wpcf7 = {
+      "apiSettings": {
+        "root": "https:\/\/pxltheme.com\/wp\/bako\/wp-json\/contact-form-7\/v1",
+        "namespace": "contact-form-7\/v1"
+      }
+    };
   </script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129166547-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-129166547-1');
-</script>
-
-
+  <script type='text/javascript'>
+    var elementorFrontendConfig = {
+      "environmentMode": {
+        "edit": false,
+        "wpPreview": false
+      },
+      "is_rtl": false,
+      "breakpoints": {
+        "xs": 0,
+        "sm": 480,
+        "md": 768,
+        "lg": 1025,
+        "xl": 1440,
+        "xxl": 1600
+      },
+      "version": "2.8.5",
+      "urls": {
+        "assets": "https:\/\/pxltheme.com\/wp\/bako\/wp-content\/plugins\/elementor\/assets\/"
+      },
+      "settings": {
+        "page": [],
+        "general": {
+          "elementor_global_image_lightbox": "yes"
+        },
+        "editorPreferences": []
+      },
+      "post": {
+        "id": 8,
+        "title": "Home Page",
+        "excerpt": ""
+      }
+    };
+  </script>
+  <script defer src="https://pxltheme.com/wp/bako/wp-content/cache/autoptimize/js/autoptimize_a4745f425927b67e2c364e0028c3631d.js"></script>
 </body>
 
 </html>
